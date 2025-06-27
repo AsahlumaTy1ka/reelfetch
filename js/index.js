@@ -21,7 +21,6 @@ function showInfo(info,cls){
 async function downloadReel() {
     const url = document.getElementById('url').value;
     if (url) {
-       // alert("This is where the download process would start using an API or test backend service.");
         const furl = 'https://facebook-reel-and-video-downloader.p.rapidapi.com/app/main.php?url='+url;
         const options = {
         method: 'GET',
