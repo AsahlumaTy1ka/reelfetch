@@ -25,7 +25,7 @@ async function downloadReel() {
         const options = {
         method: 'GET',
         headers: {
-            'x-rapidapi-key': 'a003578484mshd4325475f01bf8dp1d9fa7jsn7484c96c3384',
+            'x-rapidapi-key': 'raAPI_KEY',
             'x-rapidapi-host': 'facebook-reel-and-video-downloader.p.rapidapi.com'
             }
         };
@@ -54,6 +54,7 @@ async function downloadReel() {
 
     }
 }
+
 
 
 
